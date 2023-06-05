@@ -4,7 +4,7 @@ import { ThreeDots } from './icons/ThreeDotsIcon';
 export function Header() {
 	return (
 		<header className='dark:bg-dark-gray dark:text-white drop-shadow bg-white flex h-20'>
-			<h1 className='drop-shadow w-60 flex-shrink-0 flex-grow-0 p-8 border-r  border-gray-300'>
+			<h1 className='drop-shadow w-60 flex-shrink-0 flex-grow-0 p-8 border-r  dark:border-gray-700 border-gray-300'>
 				<Logo />
 			</h1>
 			<div className='flex flex-grow justify-between items-center'>

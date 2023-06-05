@@ -12,7 +12,7 @@ export function EmptyBoard() {
 }
 export function Board({ columns }: { columns: IColumn[] }) {
 	return (
-		<div className='w-full flex  flex-row gap-8 overflow-x-auto '>
+		<div className='w-full h-full flex  flex-row gap-8 overflow-x-auto '>
 			{columns?.map((col) => (
 				<Column key={col.name} name={col.name} length={col.tasks.length}>
 					{col.tasks.map((task) => (
@@ -20,6 +20,9 @@ export function Board({ columns }: { columns: IColumn[] }) {
 					))}
 				</Column>
 			))}
+			<div className='w-80 flex-shrink-0 flex-grow-0 flex items-center justify-center h-full rounded-xl dark:text-white dark:bg-gray-600 bg-gray-200'>
+				+ New Column
+			</div>
 		</div>
 	);
 }
