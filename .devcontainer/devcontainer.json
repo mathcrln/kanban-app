@@ -1,0 +1,25 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+    "mounts": [
+        "source=/app/node_modules,target=/app/node_modules,type=bind"
+    ],
+    "extensions": [
+        "bibhasdn.django-html",
+        "csstools.postcss",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "jounqin.vscode-mdx",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode.sublime-keybindings",
+        "naumovs.color-highlight",
+        "stkb.rewrap",
+        "stylelint.vscode-stylelint",
+        "syler.sass-indented",
+        "tyriar.sort-lines",
+        "wholroyd.jinja",
+        "xabikos.javascriptsnippets"
+      ],
+}

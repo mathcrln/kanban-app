@@ -26,7 +26,7 @@ export function Sidebar({ boards }: { boards: Board[] }) {
 						</Link> */
 	}
 	return (
-		<aside className='dark:bg-dark-gray drop-shadow bg-white border-r w-60 dark:border-gray-700 border-gray-300 py-2 flex flex-col justify-between'>
+		<aside className='hidden md:block dark:bg-dark-gray drop-shadow bg-white border-r w-60 dark:border-gray-700 border-gray-300 py-2 flex flex-col justify-between'>
 			<div>
 				<h3 className='text-medium-gray pl-6 py-3 uppercase text-sm'>All Boards (3)</h3>
 

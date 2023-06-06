@@ -12,7 +12,7 @@ export function EmptyBoard() {
 }
 export function Board({ columns }: { columns: IColumn[] }) {
 	return (
-		<div className='w-full h-full flex  flex-row gap-8 overflow-x-auto '>
+		<div className='no-scrollbar p-5 w-full h-full flex  flex-row gap-8 overflow-auto '>
 			{columns?.map((col) => (
 				<Column key={col.name} name={col.name} length={col.tasks.length}>
 					{col.tasks.map((task) => (

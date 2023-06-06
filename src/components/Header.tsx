@@ -10,7 +10,7 @@ export function Header() {
 			<div className='flex flex-grow justify-between items-center'>
 				<h2 className='px-8 font-semibold text-xl'>Platform Launch</h2>
 				<div className='flex gap-5 items-center px-5'>
-					<button className='font-semibold bg-main-purple text-white px-4 py-2 rounded-full'>+ Add New Task</button>
+					<button className='font-semibold bg-main-purple text-white px-4 py-2 rounded-full'>+ <span className='hidden md:inline'>Add New Task</span></button>
 					<ThreeDots />
 				</div>
 			</div>

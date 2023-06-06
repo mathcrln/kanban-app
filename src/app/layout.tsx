@@ -21,7 +21,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 					<Header />
 					<div className='h-[calc(100vh-5rem)] grid grid-cols-[max-content,1fr] '>
 						<Sidebar boards={boards} />
-						<main className='bg-light-gray dark:bg-very-dark-gray overflow-hidden p-5 h-full'>{children}</main>
+						<main className='bg-light-gray dark:bg-very-dark-gray overflow-hidden h-full'>{children}</main>
 					</div>
 					{/* <DeleteBoardDialog isOpen={true} /> */}
 				</ThemeProvider>
